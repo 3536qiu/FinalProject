@@ -3,5 +3,10 @@ This project aims to detect DNA copy number alterations (CNAs) in scRNA-seq data
 ## Features
 -   Identifies reference cells within clusters.
 -   Detects CNV events (gains/losses) per cell.
--   Generates smoothed log2 fold-change data across genomic windows.
--   Plots detailed CNV heatmaps.
+## Dependencies
+-   pandas
+-   numpy
+-   scipy
+-   scikit-learn
+-   scanpy
+-   matplotlib
