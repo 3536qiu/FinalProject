@@ -16,9 +16,7 @@ This project aims to detect DNA copy number alterations (CNAs) in scRNA-seq data
 -   matplotlib
 ## Getting Started
 
-**1. Cloning the Repository **
-
-This method is recommended if you want to get all the project files, including any example notebooks or future updates. You'll need Git installed on your system.
+1. Cloning the Repository
 
 ```bash
 git clone [https://github.com/3536qiu/FinalProject.git](https://github.com/3536qiu/FinalProject.git)
