@@ -43,7 +43,10 @@ from scipy.signal import medfilt, savgol_filter
 import re
 import itertools
 ```
-
+3. After obtaining the code and installing dependencies, you can import and use the functions from core_functions.py in your Python scripts or Jupyter notebooks:
+```bash
+import core_functions as cf
+```
 
 
 
