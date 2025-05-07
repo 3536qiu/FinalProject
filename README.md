@@ -14,3 +14,12 @@ This project aims to detect DNA copy number alterations (CNAs) in scRNA-seq data
 -   scikit-learn
 -   scanpy
 -   matplotlib
+## Getting Started
+
+**1. Cloning the Repository **
+
+This method is recommended if you want to get all the project files, including any example notebooks or future updates. You'll need Git installed on your system.
+
+```bash
+git clone [https://github.com/3536qiu/FinalProject.git](https://github.com/3536qiu/FinalProject.git)
+cd FinalProject
