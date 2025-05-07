@@ -20,4 +20,5 @@ This project aims to detect DNA copy number alterations (CNAs) in scRNA-seq data
 
 ```bash
 git clone [https://github.com/3536qiu/FinalProject.git](https://github.com/3536qiu/FinalProject.git)
-cd FinalProject
+import os
+os.chdir('FinalProject')
