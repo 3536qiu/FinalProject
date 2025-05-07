@@ -22,3 +22,28 @@ This project aims to detect DNA copy number alterations (CNAs) in scRNA-seq data
 git clone [https://github.com/3536qiu/FinalProject.git](https://github.com/3536qiu/FinalProject.git)
 import os
 os.chdir('FinalProject')
+
+2. Once you have the files, you'll need to install the necessary Python packages.
+```bash
+import scanpy as sc
+import pandas as pd
+import numpy as np
+import warnings
+import matplotlib.pyplot as plt
+from scipy.ndimage import gaussian_filter1d
+import scipy.sparse
+from sklearn.mixture import GaussianMixture
+from sklearn.metrics import precision_recall_fscore_support
+from hmmlearn import hmm
+from scipy import stats
+from scipy.ndimage import uniform_filter1d
+from scipy.ndimage import gaussian_filter1d
+from scipy import stats
+from scipy.signal import medfilt, savgol_filter
+import re
+import itertools
+
+
+
+
+
