@@ -47,6 +47,25 @@ import itertools
 ```bash
 import core_functions as cf
 ```
-4. Now you can utilize the defined functions to analyze your scRNA-seq data! Enjoy!
+4. Now you can utilize the defined functions to analyze your scRNA-seq data! Enjoy! Below is an example usage
+```bash
+# Example: Load your AnnData object
+# adata = sc.read_h5ad("path/to/your/data.h5ad")
+# Important: remember to process your data using pca, neighboring, umap and leiden
 
+# 1. Find reference cells
+# cluster_references = cf.find_cluster_references(adata, cluster_key=cluster_key_name)
+
+# 2. Detect CNAs
+# calls_df, windows_data, var_sorted_info = cf.detect_cnas_per_cluster(
+#     adata,
+#     cluster_key=cluster_key_name,
+#     cluster_refs=cluster_references
+# )
+
+# 3. Extract CNA segments
+# segments_df = cf.extract_cna_segments(calls_df, windows_data, var_sorted_info)
+
+# print(segments_df.head())
+```
 
