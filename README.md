@@ -22,7 +22,7 @@ This project aims to detect DNA copy number alterations (CNAs) in scRNA-seq data
 git clone [https://github.com/3536qiu/FinalProject.git](https://github.com/3536qiu/FinalProject.git)
 import os
 os.chdir('FinalProject')
-
+```
 2. Once you have the files, you'll need to install the necessary Python packages.
 ```bash
 import scanpy as sc
@@ -42,7 +42,7 @@ from scipy import stats
 from scipy.signal import medfilt, savgol_filter
 import re
 import itertools
-
+```
 
 
 
