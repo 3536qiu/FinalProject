@@ -47,6 +47,6 @@ import itertools
 ```bash
 import core_functions as cf
 ```
-
+4. Now you can utilize the defined functions to analyze your scRNA-seq data! Enjoy!
 
 
