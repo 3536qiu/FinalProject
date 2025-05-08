@@ -7,7 +7,7 @@ This project aims to detect DNA copy number alterations (CNAs) in scRNA-seq data
 1.  `find_cluster_references`: Identifies reference (e.g., diploid) cells within each cluster based on low gene expression variance.
 2.  `detect_cnas_per_cluster`: Calculates per-window log2 fold-changes against reference cells and calls CNA gains/losses per chromosome for each cell.
 3.  `extract_cna_segments`: Converts the per-cell, per-chromosome CNA calls into a table of genomic segments with their associated CNA status.
-4.  `compute_mean_f1`: Computed precision, recall, and F1 scores of different input parameters comparing to provided predefined CNAs. 
+4.  `compute_mean_f1`: Calculates precision, recall, and F1 scores by comparing detected CNA calls against predefined ground truth CNAs and compares impact of different input parameters.
 ## Dependencies
 -   pandas
 -   numpy
